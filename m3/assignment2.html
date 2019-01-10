@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function myFunction1() {
+            document.getElementById("demo1").innerHTML = "Most polluted city in india";
+        }
+        function myFunction2() {
+            document.getElementById("demo2").innerHTML = "Also known as Bhagyanagaram";
+        }
+        function myFunction3() {
+            document.getElementById("demo3").innerHTML = "Has the budda statue";
+        }
+         function func1() 
+                {
+                    var arr = ["delhi"]
+                    var type = document.getElementsByName("type1");
+                    if(type[0].checked && type[0].value==arr[0])
+                    {
+                        document.getElementById("ans1").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    
+                    else if(type[1].checked && type[1].value==arr[0])
+                    {
+                        document.getElementById("ans1").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    
+                    else if(type[2].checked && type[2].value==arr[0])
+                    {
+                        
+                        document.getElementById("ans1").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    else {
+                        document.getElementById("ans1").innerHTML = "Wrong! Delhi is correct answer"
+                        // alert(val)
+                    }
+                }
+                function func2() 
+                {
+                    var arr = ["hyderabad"]
+                    var type = document.getElementsByName("type2");
+                    if(type[0].checked && type[0].value==arr[0])
+                    {
+                        document.getElementById("ans2").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    
+                    else if(type[1].checked && type[1].value==arr[0])
+                    {
+                        document.getElementById("ans2").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    
+                    else if(type[2].checked && type[2].value==arr[0])
+                    {
+                        
+                        document.getElementById("ans2").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    else {
+                        document.getElementById("ans2").innerHTML = "Wrong! Hyderabad is correct answer"
+                        // alert(val)
+                    }
+                }
+                function func3() 
+                {
+                    var arr = ["amaravathi"]
+                    var type = document.getElementsByName("type3");
+                    if(type[0].checked && type[0].value==arr[0])
+                    {
+                        document.getElementById("ans3").innerHTML = "Correct!";
+                        // alert(val);
+                    }                
+                    else if(type[2].checked && type[2].value==arr[0])
+                    {
+                        
+                        document.getElementById("ans3").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    else if(type[1].checked && type[1].value==arr[0])
+                    {
+                        
+                        document.getElementById("ans3").innerHTML = "Correct!";
+                        // alert(val);
+                    }
+                    else {
+                        document.getElementById("ans3").innerHTML = "Wrong! Amaravathi is correct answer"
+                        // alert(val)
+                    }
+                }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        #demo1, #demo2,#demo3{
+            background-color: orange; 
+            display: inline;
+        }
+        #demo1, #demo2, #ans1, #ans2,#demo3,#ans3{
+            /* background-color: orange; */
+            color: red;
+        }
+        .wholebody{
+            /* border: 5px solid black; */
+            margin-left: 40px;
+            margin-bottom: 40px;
+            margin-right: 40px;
+            margin-top: 40px;
+            border: 10px solid black;
+        }
+        .header{
+            /* margin-left: 20px;
+            margin-bottom: 20px;
+            margin-right: 20px;
+            margin-top: 20px; */
+            text-align: center;
+            /* border: 5px solid black; */
+        }
+        body{
+            background-color: lightblue;
+            border:20px solid teal;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wholebody">
+        <div class = "header w3-pink">
+            <div class="w3-container w3-pink w3-margin-bottom">
+                <h1>Take the Quiz</h1>
+            </div>
+        </div>
+        <div class="whole">
+            <div class = "questions">
+                <div class = "w3-container w3-teal w3-margin-bottom">
+                    <h2>What is the capital city of India?</h2>
+                </div>
+            </div>
+            <p id="demo1" class = "w3-round-large" onclick="myFunction1()">Click for Hint!</p>
+            <div class="options">
+                <p>&nbsp; <input type="radio" name="type1" value="mumbai" onclick="func1();"/>&nbsp;Mumbai</p>
+                <p>&nbsp; <input type="radio" name="type1" value="hyderabad"  onclick="func1();"/>&nbsp;Hyderabad</p>
+                <p>&nbsp; <input type="radio" name="type1" value="delhi" onclick="func1();"/>&nbsp;New Delhi</p>
+            </div>
+            <p id="ans1">&nbsp; </p>
+            <hr>
+            <div class = "questions">
+                <div class = "w3-container w3-teal w3-margin-bottom w3-round-large" onclick="myFunction2()">
+                        <h2>What is the capital city of Telangana?</h2>
+                </div>
+            </div>
+            <!-- <div class="alert alert-success alert-dismissible demo2 ">
+                <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                <strong>Success!</strong> This alert box could indicate a successful or positive action.
+            </div> -->
+            <p id="demo2" class = "w3-round-large" onclick="myFunction2()">Click for Hint!</p>
+            <div class="options">
+                <p>&nbsp; <input type="radio" name="type2" value="secunderbad" onclick="func2();"/>&nbsp; Secunderbad</p>
+                <p>&nbsp; <input type="radio" name="type2" value="hyderabad"  onclick="func2();"/>&nbsp;Hyderabad</p>
+                <p>&nbsp; <input type="radio" name="type2" value="waranagal" onclick="func2();"/>&nbsp;Waranagal</p>
+            </div>
+            <p id="ans1">&nbsp; </p>
+            <hr>
+            <div class = "questions">
+                <div class = "w3-container w3-teal w3-margin-bottom">
+                        <h2>What is the capital city of Andhra Pradesh?</h2>
+                </div>
+            </div>
+            <p id="demo3" class = "w3-round-large" onclick="myFunction3()">Click for Hint!</p>
+            <div class="options">
+                <p>&nbsp; <input type="radio" name="type3" value="amaravathi" onclick="func3();"/>&nbsp; Amaravathi</p>
+                <p>&nbsp; <input type="radio" name="type3" value="vijayawada"  onclick="func3();"/>&nbsp;Vijayawada</p>
+                <p>&nbsp; <input type="radio" name="type3" value="visakapatnam" onclick="func3();"/>&nbsp;Visakapatnam</p>
+            </div>
+            <p id="ans3">&nbsp; </p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
