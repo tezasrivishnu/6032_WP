@@ -1,0 +1,28 @@
+.box
+{
+    position: relative;
+}
+.photo
+{
+    border-radius: 50%;
+}
+body
+{
+    background-color: chocolate;
+}
+h1
+{
+    font-size: x-large;text-align: center;color: black;
+}
+.image
+{ 
+    width: 100%;height: auto; opacity: 0.7;
+}
+.bottomright
+{
+    position: absolute;bottom: 0px;left: 250px;
+}
+body
+{
+    color:black;
+}

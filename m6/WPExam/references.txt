@@ -1,0 +1,5 @@
+https://www.w3schools.com/bootstrap/bootstrap_grid_basic.asp
+
+https://www.w3schools.com/w3css/w3css_responsive.asp
+
+https://mdbootstrap.com/support/general/help-with-making-card-text-scrollable/
