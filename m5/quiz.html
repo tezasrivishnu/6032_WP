@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="quiz.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+	<script src="quiz.js"></script>
+</head>
+<body onload="load()" style="background-color:cyan;">
+    <div class = "row w3-container w3-pink w3-margin-bottom w3-round-large">
+        <h1>Take the quiz</h1>
+    </div>
+    <br>
+	<div class = "body">
+            <div class = "w3-container w3-yellow w3-margin-bottom w3-round-large">
+				<p id="q1"></p>	
+				<button id="h1" onclick = hint(id)>hint</button>
+				<p id="hint1"></p>		
+				<form>
+					<input id="q11" type="radio" onclick = check(id) name = "question1"><a id="q111"></a><br>
+					<input id="q12" type="radio" onclick = check(id) name = "question1"><a id="q122"></a><br>
+				</form>
+                <p id="ans1"></p>
+	</div>
+                
+                <div class = "w3-container w3-yellow w3-margin-bottom w3-round-large">
+				<p id="q2"></p>	
+				<button id="h2" onclick = hint(id)>hint</button>	
+				<p id="hint2"></p>		
+				<form>
+					<input id="q21" type="radio" onclick = check(id) name = "question2"><a id="q211"></a><br>
+					<input id="q22" type="radio" onclick = check(id) name = "question2"><a id="q222"></a><br>
+				</form>
+                <p id="ans2"></p>
+	</div>
+                
+                <div class = "w3-container w3-yellow w3-margin-bottom w3-round-large">
+				<p id="q3"></p>
+				<button id="h3" onclick = hint(id)>hint</button>
+				<p id="hint3"></p>				
+				<form>
+					<input id="q31" type="radio" onclick = check(id) name = "question3"><a id="q311"></a><br>
+					<input id="q32" type="radio" onclick = check(id) name = "question3"><a id="q322"></a><br>
+					
+				</form>
+                <p id="ans3"></p>
+                </div>
+				
+				
+			</div>
+	</div>
+
+</body>
+</html>
