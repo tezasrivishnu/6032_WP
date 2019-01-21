@@ -4,15 +4,15 @@
 			"question_text": "charles babbage invented the computer.",
 			"options": [
 				{
-					"option_text" : "True",
-					"is_correct" : true,
-					"option_feedback": "correct answer"
+					"option" : "True",
+					"correct" : true,
+					"response": "correct answer"
 
 				},
 				{
-					"option_text" : "False",
-					"is_correct" : false,
-					"option_feedback": "wrong answer"
+					"option" : "False",
+					"correct" : false,
+					"response": "wrong answer"
 
 				}
 			],
@@ -25,15 +25,15 @@
 			"question_text": "Mahatma Gandhi is the father our nation.",
 			"options": [
 				{
-					"option_text" : "True",
-					"is_correct" : true,
-					"option_feedback": "correct answer"
+					"option" : "True",
+					"correct" : true,
+					"response": "correct answer"
 
 				},
 				{
-					"option_text" : "False",
-					"is_correct" : false,
-					"option_feedback": "wrong answer"
+					"option" : "False",
+					"correct" : false,
+					"response": "wrong answer"
 
 				}
 			],
@@ -46,15 +46,15 @@
 			"question_text": "Who wrote the national Anthem?",
 			"options": [
 				{
-					"option_text" : "Tagore",
-					"is_correct" : true,
-					"option_feedback": "correct answer"
+					"option" : "Tagore",
+					"correct" : true,
+					"response": "correct answer"
 
 				},
 				{
-					"option_text" : "Tyagaraju",
-					"is_correct" : false,
-					"option_feedback": "wrong answer"
+					"option" : "Tyagaraju",
+					"correct" : false,
+					"response": "wrong answer"
 
 				}
 			],
@@ -67,15 +67,15 @@
 			"question_text": "Delhi is the capital of India.",
 			"options": [
 				{
-					"option_text" : "True",
-					"is_correct" : true,
-					"option_feedback": "correct answer"
+					"option" : "True",
+					"correct" : true,
+					"response": "correct answer"
 
 				},
 				{
-					"option_text" : "False",
-					"is_correct" : false,
-					"option_feedback": "wrong answer"
+					"option" : "False",
+					"correct" : false,
+					"response": "wrong answer"
 
 				}
 			],

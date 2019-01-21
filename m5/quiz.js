@@ -47,19 +47,19 @@ var data = {
 			"options": [
 				{
 					"option" : "Vijayawada",
-					"correct" : true,
+					"correct" : false,
 					"response": "correct answer"
 
 				},
 				{
 					"option" : "Amaravathi",
-					"correct" : false,
+					"correct" : true,
 					"response": "wrong answer"
 
 				}
 			],
 			"hints" : [
-				"try to remember the first page in the testbook."
+				"Has a buddha Statue."
 			]
 
 		},
