@@ -1,0 +1,56 @@
+body{
+background: lightblue;
+padding: 20px;
+}
+.part-one{
+text-align: center;
+border: 2px dashed green;
+background: lightblue;
+padding: 20px;
+}
+h1{
+text-align: center;
+border: 2px dashed green;
+padding: 20px;
+background: lightblue;
+font-family: 'Times New Roman', Times, serif;
+
+}
+span{
+font-family: Arial, Helvetica, sans-serif;
+}
+input[type=text], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+input[type=password], select {
+width: 100%;
+padding: 12px 20px;
+margin: 8px 0;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+span{
+font-weight: bold;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-size: 150%;
+}
+.button {
+background-color: #4CAF50;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+}

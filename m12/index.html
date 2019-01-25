@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="style.css">
+    <script src = "script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+    <title>exam2</title>
+</head>
+<body>
+    
+    <div class="row">
+        <h1>Comment Box Assignment</h1>
+    </div>
+    <div class = "col-md-6 part-one">
+        <form>
+            <span>Name</span><br>
+            <input type="text" id="name" placeholder="Enter your Name.." required>
+            <br>
+            <span>Comment</span><br>
+            <input type="text" id="comment" placeholder="Enter your comment.." required>
+
+            <br>
+            <span>Secret Key</span><br>
+            <input type="password" id="key" placeholder="Enter your Key..">
+            <br><br>
+            <button class = "button" onclick = "validate()">Submit</button>
+        </form>
+        <div id="hide" style="display:none; color: red">
+            Secret Key Error!
+        </div>
+    </div>
+    
+
+    <div class = "col-md-6 part-two" id = "com">
+    
+    </div>
+
+    
+</body>
+</html>
